@@ -1,7 +1,7 @@
 let gif;
 
 function preload(){
-  gif=loadImage(assets/graphicGIF.gif);
+  gif=loadImage("assets/graphicGIF.gif");
 }
 function setup() {
   createCanvas(windowWidth,windowWidth);
