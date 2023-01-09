@@ -16,8 +16,7 @@ function draw() {
   var sideLen=windowWidth/numSquares;
   for (var x=0;x<numSquares*numSquares;x+=1){ //this loop creates a row in the x direction
     var yCounter = int(x/numSquares);
-    square((x%numSquares)*sideLen,yCounter*sideLen,sideLen);
-    image(gif,x,y,sideLen,sideLen);
+    image(gif,(x%numSquares)*sideLen,yCounter*sideLen,sideLen,sideLen);
 
   }
 
