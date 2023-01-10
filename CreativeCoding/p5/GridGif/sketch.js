@@ -21,7 +21,7 @@ function draw() {
   //
   // }
 
-  var num=30;
+  var num=10;
   var sideLen=windowWidth/num;
 
   for (var y = 0; y<windowWidth;y+=sideLen){

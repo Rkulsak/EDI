@@ -20,10 +20,9 @@ function draw() {
   //   image(gif,(x%numSquares)*sideLen,yCounter*sideLen,sideLen,sideLen);
   //
   // }
-  translate(-150,150);
   var num=30;
   var sideLen=windowWidth/num;
-
+  translate(-150,150);
   for (var y = 0; y<windowWidth;y+=sideLen){
     for(var x = 0;x<windowWidth;x+=sideLen){
       image(gif,x,y,sideLen,sideLen);
@@ -32,7 +31,6 @@ function draw() {
 
 }
 
-
 function windowResized(){
-  resizeCanvas(windowWidth,windowHeight)
+  resizeCanvas(windowWidth,windowHeight);
 }
