@@ -5,12 +5,13 @@ function preload(){
 }
 function setup() {
   createCanvas(windowWidth,windowWidth);
-  background(255,255,0);
 }
 
 function draw() {
   fill(255,0,0);
   strokeWeight(1);
+  background(255,255,0);
+
 
   // var numSquares=30;
   // var sideLen=windowWidth/numSquares;
